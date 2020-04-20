@@ -24,7 +24,7 @@ public class MyDbClass extends SQLiteAssetHelper {
         this.context=context;
     }
 
-    public void getAllData()
+    public ArrayList<DbModelClass> getAllData()
     {
         try
         {
@@ -60,5 +60,6 @@ public class MyDbClass extends SQLiteAssetHelper {
         catch (Exception e){
 
         }
+        return null;
     }
 }

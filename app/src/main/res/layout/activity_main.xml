@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/showValueBtn"
         android:text="show values"
+        android:onClick="showData"
         />
 
     <androidx.recyclerview.widget.RecyclerView
